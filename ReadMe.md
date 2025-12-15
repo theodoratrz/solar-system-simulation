@@ -1,15 +1,17 @@
 # Solar System Simulation
 
-This project is a real-time solar system simulation using OpenGL and GLFW. It includes models for the sun, earth, and moon, along with textures 
-and shaders to create a visually appealing representation.
+A **real-time 3D simulation** of the solar system implemented in C++ using OpenGL and GLFW.
+This project renders the Sun, Earth, and Moon with textures and dynamic lighting, along with
+interactive camera control.
+
 ![planet system](./pics/planet_system3.png)
 
 ## Features
 
-- Real-time rendering of celestial bodies.
-- Day-night cycle on Earth based on the position of the sun.
-- Interactive controls for camera movement and pausing the simulation.
-- Starfield background for added realism.
+- **Real-time Rendering:** Uses OpenGL to display celestial bodies with textures.
+- **Interactive Controls:** Navigate the scene with keyboard and mouse input.
+- **Day–Night Cycle:** Earth has a basic day/night lighting effect based on its rotation.
+- **Starfield Background:** Enhances the visual environment with a field of stars.
 
 ## Structure 
 - Dependecies/ : all libraries needed for project
